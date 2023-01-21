@@ -6,6 +6,7 @@ const uglify        = require('gulp-uglify-es').default;
 const autoprefixer  = require('gulp-autoprefixer');
 const imagemin      = require('gulp-imagemin');
 const del           = require('del');
+// const json          = require('json-server');
 
 function browsersync(){
     browserSync.init({
